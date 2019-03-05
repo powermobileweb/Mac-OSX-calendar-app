@@ -1,0 +1,102 @@
+/*
+*  Copyright (C) 2011-2012 Maxwell Barvian
+*                2018 elementary, Inc. (https://elementary.io)
+*
+*  This program is free software: you can redistribute it and/or modify
+*  it under the terms of the GNU General Public License as published by
+*  the Free Software Foundation, either version 3 of the License, or
+*  (at your option) any later version.
+*
+*  This program is distributed in the hope that it will be useful,
+*  but WITHOUT ANY WARRANTY; without even the implied warranty of
+*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*  GNU General Public License for more details.
+*
+*  You should have received a copy of the GNU General Public License
+*  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+.header {
+    background-image:
+        linear-gradient(
+            to bottom,
+            @bg_color,
+            shade(@bg_color, 1.2)
+        );
+}
+
+.daylabel {
+    padding: 3px;
+    border-left: solid 1px @menu_separator;
+}
+
+.daylabel:first-child {
+    border-left: none;
+}
+
+
+.cell {
+    background-color: @base_color;
+    border-radius: 0;
+    border-top: solid 1px @menu_separator;
+    border-left: solid 1px @menu_separator;
+}
+
+.cell.firstcol {
+    border-left: none;
+}
+
+.cell.dim-label {
+    background-color: @bg_color;
+}
+
+#date {
+    border-radius: 50%;
+    min-height: 24px;
+    min-width: 24px;
+}
+
+.cell:selected #date {
+    background-color: shade(@bg_color, 0.86);
+    color: @fg_color;
+}
+
+#today #date {
+    background-color: alpha (@colorAccent, 0.15);
+    color: @colorAccent;
+    font-weight: 700;
+}
+
+#today:selected #date {
+    background-color: @colorAccent;
+    color: #fff;
+}
+
+.cell > #date {
+    font-size: 8px;
+}
+
+.weeks {
+    border-right: solid 1px @menu_separator;
+}
+
+.weeklabel {
+    border-top: solid 1px @menu_separator;
+    padding: 3px;
+}
+
+.cell:dir(rtl),
+.daylabel:dir(rtl) {
+    border-right: solid 1px @menu_separator;
+    border-left: none;
+}
+
+.cell.firstcol:dir(rtl),
+.daylabel:first-child:dir(rtl),
+.weeks:dir(rtl) {
+    border-right: none;
+}
+
+.weeks:dir(rtl) {
+    border-left: solid 1px @menu_separator;
+}
