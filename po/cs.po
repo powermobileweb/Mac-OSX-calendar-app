@@ -1,0 +1,948 @@
+# Czech translation for maya
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the maya package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: maya\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 15:10-0800\n"
+"PO-Revision-Date: 2019-02-07 00:05+0000\n"
+"Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
+"Language-Team: Czech <https://weblate.elementary.io/projects/calendar/"
+"calendar/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.0.1\n"
+"X-Launchpad-Export-Date: 2017-02-28 04:56+0000\n"
+
+#: core/Backends/LocalBackend.vala:27 core/Utils.vala:591
+msgid "On this computer"
+msgstr "V tomto počítači"
+
+#: core/Backends/PlacementWidget.vala:41
+msgid "User:"
+msgstr "Uživatel:"
+
+#: core/Backends/PlacementWidget.vala:50
+msgid "user.name"
+msgstr "uzivatelske.jmeno"
+
+#: core/Backends/PlacementWidget.vala:63
+msgid "Email:"
+msgstr "Email:"
+
+#: core/Backends/PlacementWidget.vala:72
+msgid "john@doe.com"
+msgstr "novak@example.cz"
+
+#: core/Backends/PlacementWidget.vala:84
+msgid "Keep a copy locally"
+msgstr "Uchovat lokální kopii"
+
+#: daemon/Daemon.vala:24
+msgid "Print debug information"
+msgstr "Informace pro debugování tisku"
+
+#: plugins/Google/GoogleBackend.vala:38
+msgid "Google"
+msgstr "Google"
+
+#: plugins/Google/GoogleBackend.vala:61
+msgid "user.name or user.name@gmail.com"
+msgstr "uzivatelske.jmeno nebo uzivatelske.jmeno@gmail.com"
+
+#: plugins/CalDAV/CalDAVBackend.vala:39
+msgid "CalDAV"
+msgstr "CalDAV"
+
+#: plugins/CalDAV/CalDAVBackend.vala:58
+msgid "URL:"
+msgstr "URL:"
+
+#: plugins/CalDAV/CalDAVBackend.vala:95
+msgid "Use a secure connection"
+msgstr "Používat zabezpečené připojení"
+
+#: plugins/CalDAV/CalDAVBackend.vala:123
+msgid "Server handles meeting invitations"
+msgstr "Server spravuje pozvánky na schůzky"
+
+#: src/AgendaView.vala:50
+msgid ""
+"Your upcoming events will be displayed here when you select a date with "
+"events."
+msgstr "Zde se zobrazí nadcházející události, až vyberete datum s událostmi."
+
+#: src/AgendaView.vala:150
+msgid "During the day"
+msgstr "Během dne"
+
+#: src/AgendaView.vala:158
+msgid "All day"
+msgstr "Celý den"
+
+#: src/AgendaView.vala:275
+msgid "Tomorrow"
+msgstr "Zítra"
+
+#: src/AgendaView.vala:278
+msgid "This Week"
+msgstr "Tento týden"
+
+#: src/AgendaView.vala:281
+msgid "Next Week"
+msgstr "Příští týden"
+
+#: src/AgendaView.vala:284
+msgid "This Month"
+msgstr "Tento měsíc"
+
+#: src/AgendaView.vala:287
+msgid "Next Month"
+msgstr "Příští měsíc"
+
+#: src/Application.vala:47
+msgid "Create an event"
+msgstr "Vytvořit událost"
+
+#: src/Application.vala:48
+msgid "Focus the given day"
+msgstr "Zaměřit na daný den"
+
+#: src/Application.vala:48
+msgid "date"
+msgstr "datum"
+
+#: src/Application.vala:140
+msgid "Calendar"
+msgstr "Kalendář"
+
+#: src/ImportDialog.vala:28
+msgid "Select a Calendar to Import Into"
+msgstr "Vyberte kalendář do kterého chcete importovat"
+
+#: src/ImportDialog.vala:44
+#, c-format
+msgid "Events from \"%s\" will be merged with this calendar:"
+msgstr "Události z \"%s\" budou sloučeny s tímto kalendářem:"
+
+#: src/ImportDialog.vala:47
+#, c-format
+msgid "Events from %d file will be merged with this calendar:"
+msgid_plural "Events from %d files will be merged with this calendar:"
+msgstr[0] "Události z %d souboru budou sloučeny s tímto kalendářem:"
+msgstr[1] "Události ze %d souborů budou sloučeny s tímto kalendářem:"
+msgstr[2] "Události z %d souborů budou sloučeny s tímto kalendářem:"
+
+#: src/ImportDialog.vala:57
+msgid "Import"
+msgstr "Import"
+
+#: src/LanguagesFormat.vala:21
+msgid "%B %e, %Y"
+msgstr "%e. %B %Y"
+
+#: src/LanguagesFormat.vala:25
+#, fuzzy
+msgid "%a, %b %d"
+msgstr "%A, %d. %B"
+
+#: src/EventEdition/EventDialog.vala:58
+msgid "Add Event"
+msgstr "Přidat událost"
+
+#: src/EventEdition/EventDialog.vala:61
+msgid "Edit Event"
+msgstr "Upravit událost"
+
+#: src/EventEdition/EventDialog.vala:100
+msgid "General Informations"
+msgstr "Obecné informace"
+
+#: src/EventEdition/EventDialog.vala:101
+msgid "Location"
+msgstr "Místo"
+
+#: src/EventEdition/EventDialog.vala:102
+msgid "Guests"
+msgstr "Hosté"
+
+#: src/EventEdition/EventDialog.vala:103
+msgid "Reminders"
+msgstr "Připomenutí"
+
+#: src/EventEdition/EventDialog.vala:104 src/EventEdition/RepeatPanel.vala:137
+#: src/EventEdition/RepeatPanel.vala:170
+msgid "Repeat"
+msgid_plural "Repeats"
+msgstr[0] "Opakování"
+msgstr[1] "Opakování"
+msgstr[2] "Opakování"
+
+#: src/EventEdition/EventDialog.vala:127
+msgid "Delete Event"
+msgstr "Smazat událost"
+
+#: src/EventEdition/EventDialog.vala:140
+msgid "Create Event"
+msgstr "Vytvořit událost"
+
+#: src/EventEdition/EventDialog.vala:143
+msgid "Save Changes"
+msgstr "Uložit změny"
+
+#: src/EventEdition/EventDialog.vala:146 src/SourceDialog/SourceDialog.vala:52
+#: src/Widgets/ContractorButtonWithMenu.vala:87
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: src/EventEdition/GuestGrid.vala:42
+msgid "Accepted"
+msgstr "Přijato"
+
+#: src/EventEdition/GuestGrid.vala:46
+msgid "Declined"
+msgstr "Odmítnuto"
+
+#: src/EventEdition/GuestGrid.vala:50
+msgid "Maybe"
+msgstr "Možná"
+
+#: src/EventEdition/GuestsPanel.vala:53
+msgid "Participants:"
+msgstr "Účastníci:"
+
+#: src/EventEdition/GuestsPanel.vala:58
+msgid "No Participants"
+msgstr "Žádní účastníci"
+
+#: src/EventEdition/GuestsPanel.vala:94
+msgid "Invite"
+msgstr "Pozvat"
+
+#: src/EventEdition/InfoPanel.vala:77
+msgid "From:"
+msgstr "Od:"
+
+#: src/EventEdition/InfoPanel.vala:83
+msgid "All day:"
+msgstr "Celý den:"
+
+#: src/EventEdition/InfoPanel.vala:88
+msgid "To:"
+msgstr "Do:"
+
+#: src/EventEdition/InfoPanel.vala:106
+msgid "Title:"
+msgstr "Název:"
+
+#: src/EventEdition/InfoPanel.vala:108
+msgid "Name of Event"
+msgstr "Název události"
+
+#: src/EventEdition/InfoPanel.vala:118
+msgid "Press enter to parse event"
+msgstr "Stiskněte enter pro vložení události"
+
+#: src/EventEdition/InfoPanel.vala:133
+msgid "Calendar:"
+msgstr "Kalendář:"
+
+#: src/EventEdition/InfoPanel.vala:140
+msgid "Comments:"
+msgstr "Komentáře:"
+
+#: src/EventEdition/LocationPanel.vala:50
+msgid "Location:"
+msgstr "Místo:"
+
+#: src/EventEdition/LocationPanel.vala:52
+msgid "John Smith OR Example St."
+msgstr "Jan Novák NEBO Severní ul."
+
+#: src/EventEdition/ReminderPanel.vala:34
+msgid "Reminders:"
+msgstr "Upozornění:"
+
+#: src/EventEdition/ReminderPanel.vala:36
+msgid "No Reminders"
+msgstr "Žádná upozornění"
+
+#: src/EventEdition/ReminderPanel.vala:60
+msgid "Add Reminder"
+msgstr "Přídat upozornění"
+
+#: src/EventEdition/ReminderPanel.vala:163
+msgid "At time of event"
+msgstr "V průběhu události"
+
+#: src/EventEdition/ReminderPanel.vala:164
+msgid "1 minute before"
+msgstr "1 minutu předem"
+
+#: src/EventEdition/ReminderPanel.vala:165
+msgid "5 minutes before"
+msgstr "5 minut předem"
+
+#: src/EventEdition/ReminderPanel.vala:166
+msgid "10 minutes before"
+msgstr "10 minut předem"
+
+#: src/EventEdition/ReminderPanel.vala:167
+msgid "15 minutes before"
+msgstr "15 minut předem"
+
+#: src/EventEdition/ReminderPanel.vala:168
+msgid "20 minutes before"
+msgstr "20 minut předem"
+
+#: src/EventEdition/ReminderPanel.vala:169
+msgid "25 minutes before"
+msgstr "25 minut předem"
+
+#: src/EventEdition/ReminderPanel.vala:170
+msgid "30 minutes before"
+msgstr "30 minut předem"
+
+#: src/EventEdition/ReminderPanel.vala:171
+msgid "45 minutes before"
+msgstr "45 minut předem"
+
+#: src/EventEdition/ReminderPanel.vala:172
+msgid "1 hour before"
+msgstr "1 hodinu předem"
+
+#: src/EventEdition/ReminderPanel.vala:173
+msgid "2 hours before"
+msgstr "2 hodiny předem"
+
+#: src/EventEdition/ReminderPanel.vala:174
+msgid "3 hours before"
+msgstr "3 hodiny předem"
+
+#: src/EventEdition/ReminderPanel.vala:175
+msgid "12 hours before"
+msgstr "12 hodin předem"
+
+#: src/EventEdition/ReminderPanel.vala:176
+msgid "24 hours before"
+msgstr "24 hodin předem"
+
+#: src/EventEdition/ReminderPanel.vala:177
+msgid "2 days before"
+msgstr "2 dny předem"
+
+#: src/EventEdition/ReminderPanel.vala:178
+msgid "1 week before"
+msgstr "1 týden předem"
+
+#: src/EventEdition/RepeatPanel.vala:53
+msgid "Repeat:"
+msgstr "Opakovat:"
+
+#: src/EventEdition/RepeatPanel.vala:58
+msgid "Daily"
+msgstr "Denně"
+
+#: src/EventEdition/RepeatPanel.vala:59
+msgid "Weekly"
+msgstr "Týdně"
+
+#: src/EventEdition/RepeatPanel.vala:60
+msgid "Monthly"
+msgstr "Měsíčně"
+
+#: src/EventEdition/RepeatPanel.vala:61
+msgid "Yearly"
+msgstr "Ročně"
+
+#: src/EventEdition/RepeatPanel.vala:104
+msgid "Every:"
+msgstr "Každý:"
+
+#: src/EventEdition/RepeatPanel.vala:111
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Den"
+msgstr[1] "Dny"
+msgstr[2] "Dnů"
+
+#: src/EventEdition/RepeatPanel.vala:114 src/EventEdition/RepeatPanel.vala:125
+msgid "Week"
+msgid_plural "Weeks"
+msgstr[0] "Týden"
+msgstr[1] "Týdny"
+msgstr[2] "Týdnů"
+
+#: src/EventEdition/RepeatPanel.vala:117
+msgid "Month"
+msgid_plural "Months"
+msgstr[0] "Měsíc"
+msgstr[1] "Měsíce"
+msgstr[2] "Měsíců"
+
+#: src/EventEdition/RepeatPanel.vala:120
+msgid "Year"
+msgid_plural "Years"
+msgstr[0] "Rok"
+msgstr[1] "Roky"
+msgstr[2] "Let"
+
+#: src/EventEdition/RepeatPanel.vala:135
+msgid "Ends:"
+msgstr "Končí:"
+
+#: src/EventEdition/RepeatPanel.vala:141
+msgid "Never"
+msgstr "Nikdy"
+
+#: src/EventEdition/RepeatPanel.vala:142
+msgid "Until"
+msgstr "Do"
+
+#: src/EventEdition/RepeatPanel.vala:143
+msgid "After"
+msgstr "Po"
+
+#: src/EventEdition/RepeatPanel.vala:189
+msgid "The same day every month"
+msgstr "Stejný den každý měsíc"
+
+#: src/EventEdition/RepeatPanel.vala:200
+msgid "Exceptions:"
+msgstr "Vyjimky:"
+
+#: src/EventEdition/RepeatPanel.vala:203
+msgid "No Exceptions"
+msgstr "Žádné výjimky"
+
+#: src/EventEdition/RepeatPanel.vala:224
+msgid "Add Exception"
+msgstr "Přidat výjimku"
+
+#: src/EventEdition/RepeatPanel.vala:358
+msgid "Every last Sunday"
+msgstr "Každou neděli"
+
+#: src/EventEdition/RepeatPanel.vala:361
+msgid "Every last Monday"
+msgstr "Každé pondělí"
+
+#: src/EventEdition/RepeatPanel.vala:364
+msgid "Every last Tuesday"
+msgstr "Každé úterý"
+
+#: src/EventEdition/RepeatPanel.vala:367
+msgid "Every last Wednesday"
+msgstr "Každou středu"
+
+#: src/EventEdition/RepeatPanel.vala:370
+msgid "Every last Thursday"
+msgstr "Každý poslední čtvrtek"
+
+#: src/EventEdition/RepeatPanel.vala:373
+msgid "Every last Friday"
+msgstr "Každý poslední pátek"
+
+#: src/EventEdition/RepeatPanel.vala:376
+msgid "Every last Saturday"
+msgstr "Každou poslední sobotu"
+
+#: src/EventEdition/RepeatPanel.vala:383
+msgid "Every first Sunday"
+msgstr "Každou první neděli"
+
+#: src/EventEdition/RepeatPanel.vala:386
+msgid "Every first Monday"
+msgstr "Každé první pondělí"
+
+#: src/EventEdition/RepeatPanel.vala:389
+msgid "Every first Tuesday"
+msgstr "Každé první úterý"
+
+#: src/EventEdition/RepeatPanel.vala:392
+msgid "Every first Wednesday"
+msgstr "Každou první středu"
+
+#: src/EventEdition/RepeatPanel.vala:395
+msgid "Every first Thursday"
+msgstr "Každý první čtvrtek"
+
+#: src/EventEdition/RepeatPanel.vala:398
+msgid "Every first Friday"
+msgstr "Každý první pátek"
+
+#: src/EventEdition/RepeatPanel.vala:401
+msgid "Every first Saturday"
+msgstr "Každou první sobotu"
+
+#: src/EventEdition/RepeatPanel.vala:408
+msgid "Every second Sunday"
+msgstr "Každou druhou neděli"
+
+#: src/EventEdition/RepeatPanel.vala:411
+msgid "Every second Monday"
+msgstr "Každé druhé ponděli"
+
+#: src/EventEdition/RepeatPanel.vala:414
+msgid "Every second Tuesday"
+msgstr "Každé druhé úterý"
+
+#: src/EventEdition/RepeatPanel.vala:417
+msgid "Every second Wednesday"
+msgstr "Každou druhou středu"
+
+#: src/EventEdition/RepeatPanel.vala:420
+msgid "Every second Thursday"
+msgstr "Každý druhý čtvrtek"
+
+#: src/EventEdition/RepeatPanel.vala:423
+msgid "Every second Friday"
+msgstr "Každý druhý pátek"
+
+#: src/EventEdition/RepeatPanel.vala:426
+msgid "Every second Saturday"
+msgstr "Každou druhou sobotu"
+
+#: src/EventEdition/RepeatPanel.vala:433
+msgid "Every third Sunday"
+msgstr "Každou třetí neděli"
+
+#: src/EventEdition/RepeatPanel.vala:436
+msgid "Every third Monday"
+msgstr "Každé třetí pondělí"
+
+#: src/EventEdition/RepeatPanel.vala:439
+msgid "Every third Tuesday"
+msgstr "Každé třetí úterý"
+
+#: src/EventEdition/RepeatPanel.vala:442
+msgid "Every third Wednesday"
+msgstr "Každou třetí středu"
+
+#: src/EventEdition/RepeatPanel.vala:445
+msgid "Every third Thursday"
+msgstr "Každý třetí čtvrtek"
+
+#: src/EventEdition/RepeatPanel.vala:448
+msgid "Every third Friday"
+msgstr "Každý třetí pátek"
+
+#: src/EventEdition/RepeatPanel.vala:451
+msgid "Every third Saturday"
+msgstr "Každou třetí sobotu"
+
+#: src/EventEdition/RepeatPanel.vala:458
+msgid "Every fourth Sunday"
+msgstr "Každou čtvrtou sobotu"
+
+#: src/EventEdition/RepeatPanel.vala:461
+msgid "Every fourth Monday"
+msgstr "Každé čtvrté pondělí"
+
+#: src/EventEdition/RepeatPanel.vala:464
+msgid "Every fourth Tuesday"
+msgstr "Každé čtvrté úterý"
+
+#: src/EventEdition/RepeatPanel.vala:467
+msgid "Every fourth Wednesday"
+msgstr "Každou čtvrtou středu"
+
+#: src/EventEdition/RepeatPanel.vala:470
+msgid "Every fourth Thursday"
+msgstr "Každý čtvrtý čtvrtek"
+
+#: src/EventEdition/RepeatPanel.vala:473
+msgid "Every fourth Friday"
+msgstr "Každý čtvrtý pátek"
+
+#: src/EventEdition/RepeatPanel.vala:476
+msgid "Every fourth Saturday"
+msgstr "Každou čtvrtou sobotu"
+
+#: src/EventEdition/RepeatPanel.vala:483
+msgid "Every fifth Sunday"
+msgstr "Každou pátou neděli"
+
+#: src/EventEdition/RepeatPanel.vala:486
+msgid "Every fifth Monday"
+msgstr "Každé páté pondělí"
+
+#: src/EventEdition/RepeatPanel.vala:489
+msgid "Every fifth Tuesday"
+msgstr "Každé páté úterý"
+
+#: src/EventEdition/RepeatPanel.vala:492
+msgid "Every fifth Wednesday"
+msgstr "Každou pátou středu"
+
+#: src/EventEdition/RepeatPanel.vala:495
+msgid "Every fifth Thursday"
+msgstr "Každý pátý čtvrtek"
+
+#: src/EventEdition/RepeatPanel.vala:498
+msgid "Every fifth Friday"
+msgstr "Každý pátý pátek"
+
+#: src/EventEdition/RepeatPanel.vala:501
+msgid "Every fifth Saturday"
+msgstr "Každou pátou sobotu"
+
+#: src/EventEdition/RepeatPanel.vala:511
+msgid "Mon"
+msgstr "Po"
+
+#: src/EventEdition/RepeatPanel.vala:512
+msgid "Tue"
+msgstr "Út"
+
+#: src/EventEdition/RepeatPanel.vala:513
+msgid "Wed"
+msgstr "St"
+
+#: src/EventEdition/RepeatPanel.vala:514
+msgid "Thu"
+msgstr "Čt"
+
+#: src/EventEdition/RepeatPanel.vala:515
+msgid "Fri"
+msgstr "Pá"
+
+#: src/EventEdition/RepeatPanel.vala:516
+msgid "Sat"
+msgstr "So"
+
+#: src/EventEdition/RepeatPanel.vala:517
+msgid "Sun"
+msgstr "Ne"
+
+#: src/Grid/WeekLabels.vala:57 src/Grid/Header.vala:65
+msgid "Hide Week Numbers"
+msgstr "Skrýt čísla týdnů"
+
+#: src/Grid/WeekLabels.vala:59 src/Grid/Header.vala:67
+msgid "Show Week Numbers"
+msgstr "Zobrazovat čísla týdnů"
+
+#: src/Grid/VAutoHider.vala:109
+#, c-format
+msgid "%u more…"
+msgstr "%u více…"
+
+#: src/SourceDialog/SourceDialog.vala:53
+msgid "Create"
+msgstr "Vytvořit"
+
+#: src/SourceDialog/SourceDialog.vala:64
+msgid "Name:"
+msgstr "Název:"
+
+#: src/SourceDialog/SourceDialog.vala:68
+msgid "Calendar Name"
+msgstr "Název kalendáře"
+
+#: src/SourceDialog/SourceDialog.vala:91
+msgid "Type:"
+msgstr "Typ:"
+
+#: src/SourceDialog/SourceDialog.vala:111
+msgid "Color:"
+msgstr "Barva:"
+
+#: src/SourceDialog/SourceDialog.vala:183
+msgid "Mark as default calendar"
+msgstr "Označit jako výchozí kalendář"
+
+#: src/SourceDialog/SourceDialog.vala:247
+msgid "Create Calendar"
+msgstr "Vytvořit kalendář"
+
+#: src/SourceDialog/SourceDialog.vala:250
+#: src/Widgets/ContractorButtonWithMenu.vala:88
+msgid "Save"
+msgstr "Uložit"
+
+#: src/SourceDialog/SourceItem.vala:75 src/Widgets/EventMenu.vala:49
+msgid "Remove"
+msgstr "Odstranit"
+
+#: src/SourceDialog/SourceItem.vala:75
+msgid "Not Removable"
+msgstr "Neodstranitelné"
+
+#: src/SourceDialog/SourceItem.vala:87 src/Widgets/EventMenu.vala:36
+msgid "Edit…"
+msgstr "Upravit…"
+
+#: src/SourceDialog/SourceItem.vala:87
+msgid "Not Editable"
+msgstr "Needitovatelné"
+
+#: src/SourceDialog/SourceItem.vala:110
+msgid "Undo"
+msgstr "Zpět"
+
+#: src/SourceDialog/SourceItem.vala:116 src/SourceDialog/SourceItem.vala:183
+#, c-format
+msgid "\"%s\" removed"
+msgstr "\"%s\" odstraněno"
+
+#: src/SourceDialog/SourceSelector.vala:51
+msgid "Add New Calendar…"
+msgstr "Přidat Nový kalendář…"
+
+#. TRANSLATORS: A range from start date to end date i.e. "Friday, Dec 21 – Saturday, Dec 22"
+#: src/Widgets/AgendaEventRow.vala:175
+#, c-format
+msgctxt "date-range"
+msgid "%s – %s"
+msgstr "%s – %s"
+
+#. TRANSLATORS: A range from start date and time to end date and time i.e. "Friday, Dec 21, 7:00 PM – Saturday, Dec 22, 12:00 AM"
+#: src/Widgets/AgendaEventRow.vala:178
+#, c-format
+msgid "%s, %s – %s, %s"
+msgstr "%s, %s – %s, %s"
+
+#. TRANSLATORS: A range from start time to end time i.e. "7:00 PM – 9:00 PM"
+#: src/Widgets/AgendaEventRow.vala:187
+#, c-format
+msgctxt "time-range"
+msgid "%s – %s"
+msgstr "%s – %s"
+
+#. TRANSLATORS: A range from start date and time to end time i.e. "Friday, Dec 21, 7:00 PM – 9:00 PM"
+#: src/Widgets/AgendaEventRow.vala:194
+#, c-format
+msgid "%s, %s – %s"
+msgstr "%s, %s – %s"
+
+#: src/Widgets/CalendarButton.vala:72
+msgid "Search Calendars"
+msgstr "Hledat kalendář"
+
+#: src/Widgets/CalendarButton.vala:75
+msgid "No Results"
+msgstr "Žádné výsledky"
+
+#: src/Widgets/CalendarButton.vala:76
+msgid "Try changing search terms."
+msgstr "Zkuste změnit podmínky hledání."
+
+#: src/Widgets/ContractorButtonWithMenu.vala:72
+#: src/Widgets/ContractorButtonWithMenu.vala:82
+msgid "Export Calendar…"
+msgstr "Exportovat kalendář…"
+
+#: src/Widgets/ContractorButtonWithMenu.vala:85
+msgid "calendar.ics"
+msgstr "kalendar.ics"
+
+#: src/Widgets/EventMenu.vala:41
+msgid "Remove Event"
+msgstr "Smazat událost"
+
+#: src/Widgets/EventMenu.vala:43
+msgid "Remove Occurrence"
+msgstr "Smazat tento výskyt"
+
+#: src/Widgets/HeaderBar.vala:41
+msgid "Create a new event"
+msgstr "Vytvořit novou událost"
+
+#: src/Widgets/HeaderBar.vala:48
+msgid "Go to today's date"
+msgstr "Vybrat dnešek"
+
+#: src/Widgets/HeaderBar.vala:56
+msgid "Manage Calendars"
+msgstr "Spravovat kalendáře"
+
+#: src/Widgets/HeaderBar.vala:63
+msgid "Export or Share the default Calendar"
+msgstr "Exportovat nebo sdílet výchozí kalendář"
+
+#~ msgid "Print version info and exit"
+#~ msgstr "Vytisknout informace o verzi a ukončit"
+
+#~ msgid "0 minutes"
+#~ msgstr "0 minut"
+
+#~ msgid "Notification"
+#~ msgstr "Oznámení"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Upcoming Events"
+#~ msgstr "Nadcházející události"
+
+#~ msgid "%s - %s"
+#~ msgstr "%s - %s"
+
+#~ msgid "Import events from \"%s\" into the following calendar:"
+#~ msgstr "Importovat z \"%s\" do tohoto kalendáře:"
+
+#~ msgid "Email"
+#~ msgstr "E-mail"
+
+#~ msgid "Search Events"
+#~ msgstr "Hledat události"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Hlobil Vaclav https://launchpad.net/~vaclav-hlobil\n"
+#~ "  Honza Bittner https://launchpad.net/~the-z\n"
+#~ "  Jaap Broekhuizen https://launchpad.net/~jaapz-b\n"
+#~ "  Jan Marek https://launchpad.net/~janmarek28\n"
+#~ "  Jiří Šebele https://launchpad.net/~sindriava+launchpad\n"
+#~ "  Marek Doležel https://launchpad.net/~marekdolezel\n"
+#~ "  Marek Suchánek https://launchpad.net/~suchm\n"
+#~ "  Michal Hošna https://launchpad.net/~michal-hosna\n"
+#~ "  Ondřej Brabec https://launchpad.net/~kaktus-ob\n"
+#~ "  Ondřej Doněk https://launchpad.net/~ondrejd\n"
+#~ "  Tomo Moto https://launchpad.net/~tomasivanek\n"
+#~ "  Vladimir Zdenek https://launchpad.net/~ydenek-v\n"
+#~ "  plopp https://launchpad.net/~jirihusak\n"
+#~ "  t.m https://launchpad.net/~t-martykan-m"
+
+#~ msgid "View and schedule events"
+#~ msgstr "Prohlížejte a plánujte události"
+
+#~ msgid "Maya;Planner;Dates;Days;Events;"
+#~ msgstr "Maya;Plánovač;Data;Dny;Události;"
+
+#~ msgid "About Maya"
+#~ msgstr "O aplikaci Maya"
+
+#~ msgid "About Calendar"
+#~ msgstr "O aplikaci Kalendář"
+
+#~ msgid "%H:%M"
+#~ msgstr "%H:%M"
+
+#~ msgid "at"
+#~ msgstr "v"
+
+#~ msgid "Title"
+#~ msgstr "Název"
+
+#~ msgid "Comments"
+#~ msgstr "Komentáře"
+
+#~ msgid "Today"
+#~ msgstr "Dnes"
+
+#~ msgid "Fullscreen"
+#~ msgstr "Na celou obrazovku"
+
+#~ msgid "Edit the selected event"
+#~ msgstr "Upravit vybranou událost"
+
+#~ msgid "Delete the selected event"
+#~ msgstr "Odstranit vybranou událost"
+
+#~ msgid "Contacts"
+#~ msgstr "Kontakty"
+
+#~ msgid "Webcal"
+#~ msgstr "Webcal"
+
+#~ msgid "_Add Event"
+#~ msgstr "Přidat událost"
+
+#~ msgid "Personal"
+#~ msgstr "Osobní"
+
+#~ msgid "Participants"
+#~ msgstr "Účastníci"
+
+#~ msgid "all day"
+#~ msgstr "celý den"
+
+#~ msgid "Add calendar"
+#~ msgstr "Přidat kalendář"
+
+#~ msgid "About"
+#~ msgstr "O aplikaci"
+
+#~ msgid "Ends: \t"
+#~ msgstr "Konec: \t"
+
+#~ msgid "Starts: \t"
+#~ msgstr "Začátek: \t"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%H:%M"
+
+#~ msgid "Your event has to be named and has to have a valid date"
+#~ msgstr "Událost vyžaduje jméno a platné datum"
+
+#~ msgid "Name or Email Address"
+#~ msgstr "Jméno nebo e-mail"
+
+#~ msgid "Sync..."
+#~ msgstr "Synchronizovat…"
+
+#~ msgid "Import..."
+#~ msgstr "Import…"
+
+#~ msgid "Months"
+#~ msgstr "Měsíců"
+
+#~ msgid "Weeks"
+#~ msgstr "Týdnů"
+
+#~ msgid "Years"
+#~ msgstr "Roků"
+
+#~ msgid "Repeats"
+#~ msgstr "Opakování"
+
+#~ msgid "Days"
+#~ msgstr "Dnů"
+
+#~ msgid "Wednesday"
+#~ msgstr "Středa"
+
+#~ msgid "Tuesday"
+#~ msgstr "Úterý"
+
+#~ msgid "Friday"
+#~ msgstr "Pátek"
+
+#~ msgid "Thursday"
+#~ msgstr "Čtvrtek"
+
+#~ msgid "Monday"
+#~ msgstr "Pondělí"
+
+#~ msgid "Sunday"
+#~ msgstr "Neděle"
+
+#~ msgid "Every fifth %s"
+#~ msgstr "Každou pátou %s"
+
+#~ msgid "Every first %s"
+#~ msgstr "Každou první %s"
+
+#~ msgid "Every second %s"
+#~ msgstr "Každou druhou %s"
+
+#~ msgid "Every third %s"
+#~ msgstr "Každou třetí %s"
+
+#~ msgid "Every fourth %s"
+#~ msgstr "Každou čtvrtou %s"
+
+#~ msgid "Saturday"
+#~ msgstr "Sobota"
+
+#~ msgid "Every last %s"
+#~ msgstr "Každou poslední %s"

@@ -1,0 +1,834 @@
+# Tamil translation for maya
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the maya package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: maya\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-09 15:10-0800\n"
+"PO-Revision-Date: 2015-01-19 23:02+0000\n"
+"Last-Translator: Jaap Broekhuizen <Unknown>\n"
+"Language-Team: Tamil <ta@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2016-11-07 06:15+0000\n"
+"X-Generator: Launchpad (build 18246)\n"
+
+#: core/Backends/LocalBackend.vala:27 core/Utils.vala:591
+msgid "On this computer"
+msgstr "இந்த கணினியில்"
+
+#: core/Backends/PlacementWidget.vala:41
+msgid "User:"
+msgstr "பயனர்:"
+
+#: core/Backends/PlacementWidget.vala:50
+msgid "user.name"
+msgstr "user.name"
+
+#: core/Backends/PlacementWidget.vala:63
+msgid "Email:"
+msgstr "மின்னஞ்சல்:"
+
+#: core/Backends/PlacementWidget.vala:72
+msgid "john@doe.com"
+msgstr "john@doe.com"
+
+#: core/Backends/PlacementWidget.vala:84
+msgid "Keep a copy locally"
+msgstr ""
+
+#: daemon/Daemon.vala:24
+msgid "Print debug information"
+msgstr ""
+
+#: plugins/Google/GoogleBackend.vala:38
+msgid "Google"
+msgstr "கூகுள்"
+
+#: plugins/Google/GoogleBackend.vala:61
+msgid "user.name or user.name@gmail.com"
+msgstr "user.name or user.name@gmail.com"
+
+#: plugins/CalDAV/CalDAVBackend.vala:39
+msgid "CalDAV"
+msgstr "CalDAV"
+
+#: plugins/CalDAV/CalDAVBackend.vala:58
+msgid "URL:"
+msgstr "URL:"
+
+#: plugins/CalDAV/CalDAVBackend.vala:95
+msgid "Use a secure connection"
+msgstr "ஒரு பாதுகாப்பான இணைப்பை பயன்படுத்தவும்"
+
+#: plugins/CalDAV/CalDAVBackend.vala:123
+msgid "Server handles meeting invitations"
+msgstr "சர்வர் கையாளுவது சந்திப்பு அழைப்புகள்"
+
+#: src/AgendaView.vala:50
+msgid ""
+"Your upcoming events will be displayed here when you select a date with "
+"events."
+msgstr ""
+"நிகழ்வுகளுடன் ஒரு தேதி தேர்வு செய்யும் போது உங்களது வரவிருக்கும் நிகழ்வுகள் இங்கே "
+"காட்டப்படும்."
+
+#: src/AgendaView.vala:150
+msgid "During the day"
+msgstr "பகல் பொழுதில்"
+
+#: src/AgendaView.vala:158
+msgid "All day"
+msgstr ""
+
+#: src/AgendaView.vala:275
+msgid "Tomorrow"
+msgstr ""
+
+#: src/AgendaView.vala:278
+msgid "This Week"
+msgstr ""
+
+#: src/AgendaView.vala:281
+msgid "Next Week"
+msgstr ""
+
+#: src/AgendaView.vala:284
+msgid "This Month"
+msgstr ""
+
+#: src/AgendaView.vala:287
+msgid "Next Month"
+msgstr ""
+
+#: src/Application.vala:47
+#, fuzzy
+msgid "Create an event"
+msgstr "ஒரு புதிய நிகழ்வை உருவாக்கவும்"
+
+#: src/Application.vala:48
+msgid "Focus the given day"
+msgstr ""
+
+#: src/Application.vala:48
+msgid "date"
+msgstr ""
+
+#: src/Application.vala:140
+msgid "Calendar"
+msgstr "நாட்காட்டி"
+
+#: src/ImportDialog.vala:28
+msgid "Select a Calendar to Import Into"
+msgstr ""
+
+#: src/ImportDialog.vala:44
+#, c-format
+msgid "Events from \"%s\" will be merged with this calendar:"
+msgstr ""
+
+#: src/ImportDialog.vala:47
+#, c-format
+msgid "Events from %d file will be merged with this calendar:"
+msgid_plural "Events from %d files will be merged with this calendar:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ImportDialog.vala:57
+msgid "Import"
+msgstr ""
+
+#: src/LanguagesFormat.vala:21
+msgid "%B %e, %Y"
+msgstr "%B %e, %Y"
+
+#: src/LanguagesFormat.vala:25
+#, fuzzy
+msgid "%a, %b %d"
+msgstr "%A, %b %d"
+
+#: src/EventEdition/EventDialog.vala:58
+msgid "Add Event"
+msgstr "நிகழ்ச்சியை சேர்"
+
+#: src/EventEdition/EventDialog.vala:61
+msgid "Edit Event"
+msgstr "செய்தியை திருத்து"
+
+#: src/EventEdition/EventDialog.vala:100
+msgid "General Informations"
+msgstr ""
+
+#: src/EventEdition/EventDialog.vala:101
+msgid "Location"
+msgstr "இடம்"
+
+#: src/EventEdition/EventDialog.vala:102
+msgid "Guests"
+msgstr ""
+
+#: src/EventEdition/EventDialog.vala:103
+msgid "Reminders"
+msgstr ""
+
+#: src/EventEdition/EventDialog.vala:104 src/EventEdition/RepeatPanel.vala:137
+#: src/EventEdition/RepeatPanel.vala:170
+msgid "Repeat"
+msgid_plural "Repeats"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/EventEdition/EventDialog.vala:127
+msgid "Delete Event"
+msgstr ""
+
+#: src/EventEdition/EventDialog.vala:140
+msgid "Create Event"
+msgstr "நிகழ்வை உருவாக்கு"
+
+#: src/EventEdition/EventDialog.vala:143
+msgid "Save Changes"
+msgstr "மாற்றங்களைச் சேமி"
+
+#: src/EventEdition/EventDialog.vala:146 src/SourceDialog/SourceDialog.vala:52
+#: src/Widgets/ContractorButtonWithMenu.vala:87
+msgid "Cancel"
+msgstr "இரத்துசெய்"
+
+#: src/EventEdition/GuestGrid.vala:42
+msgid "Accepted"
+msgstr ""
+
+#: src/EventEdition/GuestGrid.vala:46
+msgid "Declined"
+msgstr ""
+
+#: src/EventEdition/GuestGrid.vala:50
+msgid "Maybe"
+msgstr ""
+
+#: src/EventEdition/GuestsPanel.vala:53
+msgid "Participants:"
+msgstr ""
+
+#: src/EventEdition/GuestsPanel.vala:58
+msgid "No Participants"
+msgstr ""
+
+#: src/EventEdition/GuestsPanel.vala:94
+msgid "Invite"
+msgstr ""
+
+#: src/EventEdition/InfoPanel.vala:77
+msgid "From:"
+msgstr "அனுப்புநர்:"
+
+#: src/EventEdition/InfoPanel.vala:83
+msgid "All day:"
+msgstr "நாள் முழுதும்"
+
+#: src/EventEdition/InfoPanel.vala:88
+msgid "To:"
+msgstr "பெறுநர்:"
+
+#: src/EventEdition/InfoPanel.vala:106
+msgid "Title:"
+msgstr ""
+
+#: src/EventEdition/InfoPanel.vala:108
+msgid "Name of Event"
+msgstr "நிகழ்வின் பெயர்"
+
+#: src/EventEdition/InfoPanel.vala:118
+msgid "Press enter to parse event"
+msgstr ""
+
+#: src/EventEdition/InfoPanel.vala:133
+msgid "Calendar:"
+msgstr ""
+
+#: src/EventEdition/InfoPanel.vala:140
+msgid "Comments:"
+msgstr ""
+
+#: src/EventEdition/LocationPanel.vala:50
+msgid "Location:"
+msgstr ""
+
+#: src/EventEdition/LocationPanel.vala:52
+msgid "John Smith OR Example St."
+msgstr "ஜான் ஸ்மித் அல்லது எடுத்துக்காட்டாக St."
+
+#: src/EventEdition/ReminderPanel.vala:34
+msgid "Reminders:"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:36
+msgid "No Reminders"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:60
+msgid "Add Reminder"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:163
+#, fuzzy
+msgid "At time of event"
+msgstr "நிகழ்வின் பெயர்"
+
+#: src/EventEdition/ReminderPanel.vala:164
+msgid "1 minute before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:165
+msgid "5 minutes before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:166
+msgid "10 minutes before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:167
+msgid "15 minutes before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:168
+msgid "20 minutes before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:169
+msgid "25 minutes before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:170
+msgid "30 minutes before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:171
+msgid "45 minutes before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:172
+msgid "1 hour before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:173
+msgid "2 hours before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:174
+msgid "3 hours before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:175
+msgid "12 hours before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:176
+msgid "24 hours before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:177
+msgid "2 days before"
+msgstr ""
+
+#: src/EventEdition/ReminderPanel.vala:178
+msgid "1 week before"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:53
+msgid "Repeat:"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:58
+msgid "Daily"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:59
+msgid "Weekly"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:60
+msgid "Monthly"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:61
+msgid "Yearly"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:104
+msgid "Every:"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:111
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/EventEdition/RepeatPanel.vala:114 src/EventEdition/RepeatPanel.vala:125
+msgid "Week"
+msgid_plural "Weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/EventEdition/RepeatPanel.vala:117
+msgid "Month"
+msgid_plural "Months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/EventEdition/RepeatPanel.vala:120
+msgid "Year"
+msgid_plural "Years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/EventEdition/RepeatPanel.vala:135
+msgid "Ends:"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:141
+msgid "Never"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:142
+msgid "Until"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:143
+msgid "After"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:189
+msgid "The same day every month"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:200
+msgid "Exceptions:"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:203
+msgid "No Exceptions"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:224
+msgid "Add Exception"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:358
+msgid "Every last Sunday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:361
+msgid "Every last Monday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:364
+msgid "Every last Tuesday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:367
+msgid "Every last Wednesday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:370
+msgid "Every last Thursday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:373
+msgid "Every last Friday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:376
+msgid "Every last Saturday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:383
+msgid "Every first Sunday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:386
+msgid "Every first Monday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:389
+msgid "Every first Tuesday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:392
+msgid "Every first Wednesday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:395
+msgid "Every first Thursday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:398
+msgid "Every first Friday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:401
+msgid "Every first Saturday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:408
+msgid "Every second Sunday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:411
+msgid "Every second Monday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:414
+msgid "Every second Tuesday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:417
+msgid "Every second Wednesday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:420
+msgid "Every second Thursday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:423
+msgid "Every second Friday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:426
+msgid "Every second Saturday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:433
+msgid "Every third Sunday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:436
+msgid "Every third Monday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:439
+msgid "Every third Tuesday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:442
+msgid "Every third Wednesday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:445
+msgid "Every third Thursday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:448
+msgid "Every third Friday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:451
+msgid "Every third Saturday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:458
+msgid "Every fourth Sunday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:461
+msgid "Every fourth Monday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:464
+msgid "Every fourth Tuesday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:467
+msgid "Every fourth Wednesday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:470
+msgid "Every fourth Thursday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:473
+msgid "Every fourth Friday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:476
+msgid "Every fourth Saturday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:483
+msgid "Every fifth Sunday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:486
+msgid "Every fifth Monday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:489
+msgid "Every fifth Tuesday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:492
+msgid "Every fifth Wednesday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:495
+msgid "Every fifth Thursday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:498
+msgid "Every fifth Friday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:501
+msgid "Every fifth Saturday"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:511
+msgid "Mon"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:512
+msgid "Tue"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:513
+msgid "Wed"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:514
+msgid "Thu"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:515
+msgid "Fri"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:516
+msgid "Sat"
+msgstr ""
+
+#: src/EventEdition/RepeatPanel.vala:517
+msgid "Sun"
+msgstr ""
+
+#: src/Grid/WeekLabels.vala:57 src/Grid/Header.vala:65
+msgid "Hide Week Numbers"
+msgstr "வார எண்களை மறை"
+
+#: src/Grid/WeekLabels.vala:59 src/Grid/Header.vala:67
+msgid "Show Week Numbers"
+msgstr "வார எண்களை காட்டு"
+
+#: src/Grid/VAutoHider.vala:109
+#, c-format
+msgid "%u more…"
+msgstr ""
+
+#: src/SourceDialog/SourceDialog.vala:53
+msgid "Create"
+msgstr "உருவாக்கு"
+
+#: src/SourceDialog/SourceDialog.vala:64
+msgid "Name:"
+msgstr "பெயர்:"
+
+#: src/SourceDialog/SourceDialog.vala:68
+msgid "Calendar Name"
+msgstr "நாட்காட்டி பெயர்"
+
+#: src/SourceDialog/SourceDialog.vala:91
+msgid "Type:"
+msgstr "வகை:"
+
+#: src/SourceDialog/SourceDialog.vala:111
+msgid "Color:"
+msgstr "நிறம்:"
+
+#: src/SourceDialog/SourceDialog.vala:183
+msgid "Mark as default calendar"
+msgstr "முன்னிருப்பு நாட்காட்டியாக குறி"
+
+#: src/SourceDialog/SourceDialog.vala:247
+msgid "Create Calendar"
+msgstr "நாள்காட்டியை உருவாக்கவும்"
+
+#: src/SourceDialog/SourceDialog.vala:250
+#: src/Widgets/ContractorButtonWithMenu.vala:88
+msgid "Save"
+msgstr "சேமி"
+
+#: src/SourceDialog/SourceItem.vala:75 src/Widgets/EventMenu.vala:49
+msgid "Remove"
+msgstr "அகற்று"
+
+#: src/SourceDialog/SourceItem.vala:75
+#, fuzzy
+msgid "Not Removable"
+msgstr "அகற்று"
+
+#: src/SourceDialog/SourceItem.vala:87 src/Widgets/EventMenu.vala:36
+msgid "Edit…"
+msgstr "திருத்து..."
+
+#: src/SourceDialog/SourceItem.vala:87
+msgid "Not Editable"
+msgstr ""
+
+#: src/SourceDialog/SourceItem.vala:110
+msgid "Undo"
+msgstr "தவிர்"
+
+#: src/SourceDialog/SourceItem.vala:116 src/SourceDialog/SourceItem.vala:183
+#, fuzzy, c-format
+msgid "\"%s\" removed"
+msgstr "நாட்காட்டி \"%s\" நீக்கப்பட்டது."
+
+#: src/SourceDialog/SourceSelector.vala:51
+msgid "Add New Calendar…"
+msgstr "புதிய அட்டவணை சேர்..."
+
+#. TRANSLATORS: A range from start date to end date i.e. "Friday, Dec 21 – Saturday, Dec 22"
+#: src/Widgets/AgendaEventRow.vala:175
+#, c-format
+msgctxt "date-range"
+msgid "%s – %s"
+msgstr ""
+
+#. TRANSLATORS: A range from start date and time to end date and time i.e. "Friday, Dec 21, 7:00 PM – Saturday, Dec 22, 12:00 AM"
+#: src/Widgets/AgendaEventRow.vala:178
+#, c-format
+msgid "%s, %s – %s, %s"
+msgstr ""
+
+#. TRANSLATORS: A range from start time to end time i.e. "7:00 PM – 9:00 PM"
+#: src/Widgets/AgendaEventRow.vala:187
+#, c-format
+msgctxt "time-range"
+msgid "%s – %s"
+msgstr ""
+
+#. TRANSLATORS: A range from start date and time to end time i.e. "Friday, Dec 21, 7:00 PM – 9:00 PM"
+#: src/Widgets/AgendaEventRow.vala:194
+#, c-format
+msgid "%s, %s – %s"
+msgstr ""
+
+#: src/Widgets/CalendarButton.vala:72
+#, fuzzy
+msgid "Search Calendars"
+msgstr "நாள்காட்டியை உருவாக்கவும்"
+
+#: src/Widgets/CalendarButton.vala:75
+msgid "No Results"
+msgstr ""
+
+#: src/Widgets/CalendarButton.vala:76
+msgid "Try changing search terms."
+msgstr ""
+
+#: src/Widgets/ContractorButtonWithMenu.vala:72
+#: src/Widgets/ContractorButtonWithMenu.vala:82
+#, fuzzy
+msgid "Export Calendar…"
+msgstr "நாட்காட்டியை ஏற்றுமதி செய்..."
+
+#: src/Widgets/ContractorButtonWithMenu.vala:85
+msgid "calendar.ics"
+msgstr "நாள்காட்டி.ics"
+
+#: src/Widgets/EventMenu.vala:41
+#, fuzzy
+msgid "Remove Event"
+msgstr "நிகழ்வை உருவாக்கு"
+
+#: src/Widgets/EventMenu.vala:43
+msgid "Remove Occurrence"
+msgstr ""
+
+#: src/Widgets/HeaderBar.vala:41
+msgid "Create a new event"
+msgstr "ஒரு புதிய நிகழ்வை உருவாக்கவும்"
+
+#: src/Widgets/HeaderBar.vala:48
+msgid "Go to today's date"
+msgstr ""
+
+#: src/Widgets/HeaderBar.vala:56
+msgid "Manage Calendars"
+msgstr "காலெண்டர்களை நிர்வகி"
+
+#: src/Widgets/HeaderBar.vala:63
+msgid "Export or Share the default Calendar"
+msgstr "முன்னிருப்பு நாள்காட்டியை ஏற்றுமதி செய் அல்லது பகிர்"
+
+#~ msgid "Search Events"
+#~ msgstr "நிகழ்வுகளை தேடு"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Jaap Broekhuizen https://launchpad.net/~jaapz-b\n"
+#~ "  Khaleel Jageer https://launchpad.net/~jskcse4\n"
+#~ "  prem888 https://launchpad.net/~prem888"
+
+#~ msgid "View and schedule events"
+#~ msgstr "நிகழ்சிகளை பார்க்க மற்றும் உருவாக்க"
+
+#~ msgid "About Maya"
+#~ msgstr "மாயா என்றால்?"
+
+#~ msgid "About Calendar"
+#~ msgstr "நாட்காட்டி என்றால் ?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "%H:%M"
+#~ msgstr "%H:%M"
+
+#~ msgid "at"
+#~ msgstr "அட்"
+
+#~ msgid "Ends: \t"
+#~ msgstr "முடிவடைகிறது: \t"
+
+#~ msgid "all day"
+#~ msgstr "எல்லா நாளும்"
+
+#~ msgid "Starts: \t"
+#~ msgstr "தொடங்கு: \t"
+
+#~ msgid "Title"
+#~ msgstr "தலைப்பு"
+
+#~ msgid "Comments"
+#~ msgstr "கருத்துரைகள்"
+
+#~ msgid "This event can't be edited"
+#~ msgstr "இந்த நிகழ்வு திருத்த முடியாது"
+
+#~ msgid "Participants"
+#~ msgstr "பங்கேற்பாளர்கள்"
+
+#~ msgid "Name or Email Address"
+#~ msgstr "பெயர் அல்லது மின்னஞ்சல் முகவரி"
+
+#~ msgid "Today"
+#~ msgstr "இன்று"
+
+#~ msgid "Fullscreen"
+#~ msgstr "முழுத்திரை"
+
+#~ msgid "About"
+#~ msgstr "பற்றி"
+
+#~ msgid "Your event has to be named and has to have a valid date"
+#~ msgstr ""
+#~ "உங்கள் நிகழ்வு பெயரிடப்பட்ட வேண்டும் மற்றும் ஒரு சரியான தேதி கொண்டிருக்க வேண்டும்"
